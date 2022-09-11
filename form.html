@@ -1,0 +1,114 @@
+<!-- value attribute give the default text to give type of input -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1> Student Registration form</h1>
+
+    <small>Fill out the form for Registration</small><br><br>
+
+    <form action="form.php">
+        <label for="Name_1">Student Name</label><br><br>
+
+        <input type="text" Name="First name" placeholder="First" id="Name_1">
+
+        <input type="text" Name="Middle name" placeholder="Middle" id="Name_1">
+
+        <input type="text" Name="Last name" placeholder="Last" id="Name_1">
+
+        <br><br>
+
+        <label for="D.O.B">Birth Date</label> <br><br>
+
+        <input type="date" Name="D.O.B" id="D.O.B"> <br><br>
+
+        <!-- <label for="Gender">Gender</label><br><br>
+
+       <select Name=Gender id="Gender">
+
+            <option value="Not selected" selected>Please Select</option>
+
+            <option value="male">Male</option>
+
+            <option value="female">Female</option>
+
+            <option value="neutral" disabled>Neutral</option>
+
+
+        </select><br><br>  -->
+
+        <P>Gender</P>
+
+        <label for="gender_1"><input type="radio" name="gender" value="male" id="gender_1">Male</label>
+
+        <label for="gender_2"> <input type="radio" name="gender" value="female" id="gender_2">Female</label>
+
+        <label for="gender_3"> <input type="radio" name="gender" value="neutral" id="gender_3">Neutral</label> <br><br>
+
+        <label id="add">Address</label><br><br>
+
+        <input type="text" Name="address" placeholder="Address line 1" id="add"><br><br>
+
+        <input type="text" name="address" placeholder="Address line 2" id="add"><br><br>
+
+        <input type="text" name="address" placeholder="City" id="add">
+
+        <input type="text" name="address" placeholder="Region" id="add"><br><br>
+
+        <input type="number" name="address" placeholder="Postal/Zip code" id="add">
+
+        <input type="text" name="address" placeholder="State" value="Uttar Pradesh" id="add" disabled> <br><br>
+
+        <label for="email">Student E-mail</label><br><br>
+
+        <input type="email" name="email-address" placeholder="john@company.com" id="email"><br><br>
+
+
+        <label for="phone"> Phone </label><br><br>
+
+        <input type="tel" name="Mob_number" id="phone"><br><br>
+
+        <label for="course">Course</label><br><br>
+
+        <select name="course" id="course">
+
+            <option value="Not selected" selected>Please Select</option>
+
+            <option value="DSA">DSA</option>
+
+            <option value="Web Developmet">Web Developmet</option>
+
+            <option value="Android Developmet">Android Developmet</option>
+
+        </select><br><br>
+
+        <label for="comment">Additional Comments</label><br><br>
+
+        <textarea name="Additional comments" placeholder="Write your queries" id="comment"></textarea> <br><br>
+
+        <label for="img"> Uplod Your Photo: </label>
+
+         <input type="file" name="image"  id="img"  accept="image/*">
+
+
+        <br><br>
+
+        <input type="submit">
+
+        <input type="reset">
+
+
+
+    </form>
+
+
+</body>
+
+</html>
